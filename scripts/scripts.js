@@ -28,6 +28,7 @@ function buildHeroBlock(main) {
     section.append(buildBlock('hero', { elems: [picture, h1] }));
     main.prepend(section);
   }
+  if (main.querySelector('.hero')) return;
 }
 
 /**
